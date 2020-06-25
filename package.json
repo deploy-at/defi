@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "defi",
+  "version": "1.0.0",
+  "author": "Deploy",
+  "license": "MIT",
+  "scripts": {},
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

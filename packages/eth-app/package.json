@@ -1,0 +1,33 @@
+{
+  "name": "@project/eth-app",
+  "description": "ethereum contracts",
+  "author": "Deploy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "migrate": "truffle migrate --reset",
+    "deploy": "truffle migrate --reset --network rinkeby",
+    "test": "truffle test --network test --debug --stacktrace-extra",
+    "g:dev": "ganache-cli -d",
+    "g:test": "ganache-cli -d -i 777 -p 8777",
+    "build:client": "node utils/abis_exporter.js",
+    "cov": "truffle run coverage",
+    "lint": "solhint \"src/contracts/**/*.sol\""
+  },
+  "devDependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "3.0.1",
+    "@openzeppelin/test-helpers": "0.5.5",
+    "@truffle/hdwallet-provider": "1.0.35",
+    "@studydefi/money-legos": "^2.3.5",
+    "dotenv": "8.2.0",
+    "path": "0.12.7",
+    "solc": "0.6.7",
+    "solhint": "3.0.0",
+    "solidity-coverage": "0.7.5",
+    "typescript": "3.9.2",
+    "web3": "^1.2.7"
+  }
+}

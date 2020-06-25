@@ -1,0 +1,15 @@
+{
+  "name": "@project/node-app",
+  "description": "server",
+  "author": "Deploy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "path": "0.12.7"
+  }
+}
