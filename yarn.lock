@@ -1119,6 +1119,16 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@chainlink/contracts-0.0.3@npm:@chainlink/contracts@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@chainlink/contracts/-/contracts-0.0.3.tgz#3f542bb356d3a9900607af482a72c19492a331f9"
+  integrity sha512-mI/FhOL4J+sN8JaQJovAOnuKJSshCgr5ZIqItknJWd8p87wcVPa5/IOPJDy35tIpSCwegyNNkAsTmts9EWH7iA==
+  dependencies:
+    "@types/inquirer" "^6.5.0"
+  optionalDependencies:
+    "@truffle/contract" "^4.1.8"
+    ethers "^4.0.44"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1698,10 +1708,43 @@
     web3-eth-abi "1.2.1"
     web3-utils "1.2.1"
 
+"@truffle/contract@^4.1.8":
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.2.10.tgz#4e3c59d71899a8745a782a89b8a1e69fdd97ec11"
+  integrity sha512-86h1qyw9reJRWmYiGkMreAIZaG5bnP4VHniBe/ufMvspQVhgVPHQtpuVJD9hr1BkXwBH9WHBFdLx6z9eeiFm4w==
+  dependencies:
+    "@truffle/blockchain-utils" "^0.0.20"
+    "@truffle/contract-schema" "^3.2.0"
+    "@truffle/debug-utils" "^4.1.7"
+    "@truffle/error" "^0.0.8"
+    "@truffle/interface-adapter" "^0.4.9"
+    bignumber.js "^7.2.1"
+    ethereum-ens "^0.8.0"
+    ethers "^4.0.0-beta.1"
+    source-map-support "^0.5.19"
+    web3 "1.2.1"
+    web3-core-helpers "1.2.1"
+    web3-core-promievent "1.2.1"
+    web3-eth-abi "1.2.1"
+    web3-utils "1.2.1"
+
 "@truffle/debug-utils@^4.1.6":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-4.1.6.tgz#d41f7b06026a092512c702a40f08925de2a285e7"
   integrity sha512-clLZgcz1D2eoD1J2A6Oq7VkdszRTeVRoR9PGWFaSEhcdVjU0UgrbzK5gAuZ/mNQf1q6nKEMvzZCEh3iKZyygAQ==
+  dependencies:
+    "@truffle/codec" "^0.5.5"
+    "@trufflesuite/chromafi" "^2.1.2"
+    chalk "^2.4.2"
+    debug "^4.1.0"
+    highlight.js "^9.15.8"
+    highlightjs-solidity "^1.0.16"
+    node-dir "0.1.17"
+
+"@truffle/debug-utils@^4.1.7":
+  version "4.1.7"
+  resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-4.1.7.tgz#e2de9a1e320ffc2d8429c73a5eb38862280363fc"
+  integrity sha512-KV3OQPKud0Ymzntfb9Jxz/X6Ndz34m9qgcmmtqy/u7SRacOXHKs6Ov6QPT05QAUZdT6XgpegpSOiZCzbz+jpSQ==
   dependencies:
     "@truffle/codec" "^0.5.5"
     "@trufflesuite/chromafi" "^2.1.2"
@@ -1845,6 +1888,14 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/inquirer@^6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@types/inquirer/-/inquirer-6.5.0.tgz#b83b0bf30b88b8be7246d40e51d32fe9d10e09be"
+  integrity sha512-rjaYQ9b9y/VFGOpqBEXRavc3jh0a+e6evAbI31tMda8VlPaSy0AZJfXsvmIe3wklc7W6C3zCSfleuMXR7NOyXw==
+  dependencies:
+    "@types/through" "*"
+    rxjs "^6.4.0"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
@@ -1939,6 +1990,13 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/through@*":
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/@types/through/-/through-0.0.30.tgz#e0e42ce77e897bd6aead6f6ea62aeb135b8a3895"
+  integrity sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==
+  dependencies:
+    "@types/node" "*"
 
 "@types/yargs-parser@*":
   version "15.0.0"
@@ -4188,6 +4246,11 @@ commander@3.0.2:
   resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
   integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
 
+commander@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
+  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
+
 commander@^2.11.0, commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -6041,7 +6104,7 @@ ethers@4.0.0-beta.3:
     uuid "2.0.1"
     xmlhttprequest "1.8.0"
 
-ethers@^4.0.0-beta.1, ethers@^4.0.32:
+ethers@^4.0.0-beta.1, ethers@^4.0.32, ethers@^4.0.44:
   version "4.0.47"
   resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.47.tgz#91b9cd80473b1136dd547095ff9171bd1fc68c85"
   integrity sha512-hssRYhngV4hiDNeZmVU/k5/E8xmLG8UpcNUzg6mb7lqhgpFPH/t7nuv20RjRrEf0gblzvi2XwR5Te+V3ZFc9pQ==
@@ -9926,6 +9989,11 @@ open@^7.0.2:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
 
+"openzeppelin-solidity-2.3.0@npm:openzeppelin-solidity@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/openzeppelin-solidity/-/openzeppelin-solidity-2.3.0.tgz#1ab7b4cc3782a5472ed61eb740c56a8bfdd74119"
+  integrity sha512-QYeiPLvB1oSbDt6lDQvvpx7k8ODczvE474hb2kLXZBPKMsxKT1WxTCHBYrCU7kS7hfAku4DcJ0jqOyL+jvjwQw==
+
 opn@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"
@@ -13100,6 +13168,17 @@ symbol-tree@^3.2.2:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+synthetix@^2.23.1-alpha:
+  version "2.23.1-alpha"
+  resolved "https://registry.yarnpkg.com/synthetix/-/synthetix-2.23.1-alpha.tgz#ae2d4fb13a02ce8b07cf41741fa075da02a17aaf"
+  integrity sha512-WZpSq2qZAJC4Px81JNM7h39QfcEad1wBnv/HnB1yFMsyZdreh+h61Pme8UjTbrrsqUToc6h80n3Qqo4BChOwYg==
+  dependencies:
+    "@chainlink/contracts-0.0.3" "npm:@chainlink/contracts@0.0.3"
+    commander "5.1.0"
+    openzeppelin-solidity-2.3.0 "npm:openzeppelin-solidity@2.3.0"
+    pretty-error "^2.1.1"
+    web3-utils "1.2.2"
+
 table@^5.2.3:
   version "5.4.6"
   resolved "https://registry.yarnpkg.com/table/-/table-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
@@ -14668,9 +14747,9 @@ web3-net@1.2.9:
     web3-core-method "1.2.9"
     web3-utils "1.2.9"
 
-"web3-provider-engine@git+https://github.com/trufflesuite/provider-engine.git#web3-one":
+"web3-provider-engine@https://github.com/trufflesuite/provider-engine#web3-one":
   version "14.0.6"
-  resolved "git+https://github.com/trufflesuite/provider-engine.git#9694f5b4e5500651bd2ff689df8529bb5cf6b96f"
+  resolved "https://github.com/trufflesuite/provider-engine#9694f5b4e5500651bd2ff689df8529bb5cf6b96f"
   dependencies:
     async "^2.5.0"
     backoff "^2.5.0"

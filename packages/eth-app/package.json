@@ -20,13 +20,14 @@
     "@openzeppelin/contract-loader": "^0.6.1",
     "@openzeppelin/contracts": "3.0.1",
     "@openzeppelin/test-helpers": "0.5.5",
-    "@truffle/hdwallet-provider": "1.0.35",
     "@studydefi/money-legos": "^2.3.5",
+    "@truffle/hdwallet-provider": "1.0.35",
     "dotenv": "8.2.0",
     "path": "0.12.7",
     "solc": "0.6.7",
     "solhint": "3.0.0",
     "solidity-coverage": "0.7.5",
+    "synthetix": "^2.23.1-alpha",
     "typescript": "3.9.2",
     "web3": "^1.2.7"
   }
